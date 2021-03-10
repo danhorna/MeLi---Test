@@ -2,6 +2,7 @@ import requests
 import json
 
 def get_data():
+    # Aclaración: el site_id siempre será "MLA" dado que el enunciado no indica que éste debe variar.
     api_items = "https://api.mercadolibre.com/sites/MLA/search?seller_id="
     api_categories = "https://api.mercadolibre.com/categories/"
     usersID = input("Ingrese el ID de los vendedores separados por espacio: ")
